@@ -1,0 +1,170 @@
+{
+  "pageTitle": "Espace Chauffeurs Veeo",
+  "pageSubtitle": "Toutes les ressources et informations pour vous aider à réussir en tant que chauffeur partenaire.",
+  "guideTitle": "Guide du Chauffeur Veeo",
+  "guideDesc": "Votre manuel complet pour démarrer, optimiser vos courses et utiliser l'application.",
+  "guideLinkText": "Consulter le Guide",
+  "guideContent": {
+    "introduction": "Bienvenue dans le guide du chauffeur Veeo ! Ce guide est conçu pour vous accompagner à chaque étape de votre parcours avec nous, de votre intégration à l'optimisation de vos revenus.",
+    "sections": [
+      {
+        "title": "1. Prise en Main de l'Application Chauffeur",
+        "text": "Découvrez toutes les fonctionnalités de votre application partenaire : acceptation des courses, navigation GPS intégrée, communication avec les clients, gestion de votre profil et de vos documents."
+      },
+      {
+        "title": "2. Standards de Service Veeo",
+        "text": "Nos attentes en matière de professionnalisme, de courtoisie, de propreté du véhicule et de sécurité. Adopter les standards Veeo, c'est garantir la satisfaction client et de meilleures évaluations.",
+        "points": [
+          "Accueil du client : les bonnes pratiques.",
+          "Conduite souple et sécurisée.",
+          "Gestion des demandes spécifiques des clients.",
+          "Propreté et entretien du véhicule."
+        ]
+      },
+      {
+        "title": "3. Optimisation de Vos Courses",
+        "text": "Apprenez à identifier les zones à forte demande, les meilleurs moments pour conduire, et comment gérer efficacement votre temps pour maximiser vos courses."
+      }
+    ],
+    "conclusion": "Ce guide est une ressource vivante. N'hésitez pas à le consulter régulièrement et à nous faire part de vos suggestions pour l'améliorer."
+  },
+  "safetyTitle": "Protocoles de Sécurité",
+  "safetyDesc": "Nos engagements et vos bonnes pratiques pour des courses sûres et sereines.",
+  "safetyLinkText": "Voir les Protocoles",
+  "safetyContent": {
+    "introduction": "La sécurité de nos chauffeurs et de nos passagers est notre priorité absolue. Prenez connaissance de nos protocoles et des bonnes pratiques à adopter.",
+    "sections": [
+      {
+        "title": "Avant la Course",
+        "points": [
+          "Vérification quotidienne du véhicule (pneus, feux, niveaux).",
+          "Confirmation de l'identité du passager avant le départ.",
+          "Planification de l'itinéraire et anticipation des conditions de trafic."
+        ]
+      },
+      {
+        "title": "Pendant la Course",
+        "points": [
+          "Respect strict du code de la route et des limitations de vitesse.",
+          "Conduite défensive et anticipation des dangers.",
+          "Utilisation du bouton d'urgence de l'application en cas de besoin.",
+          "Communication claire avec le passager en cas d'imprévu."
+        ]
+      },
+      {
+        "title": "Gestion des Incidents",
+        "text": "Procédure à suivre en cas d'accident, de panne ou de comportement inapproprié d'un passager. Contactez immédiatement le support Veeo."
+      }
+    ],
+    "conclusion": "Votre vigilance et le respect de ces protocoles contribuent à faire de Veeo un service sûr et fiable."
+  },
+  "faqTitle": "FAQ Chauffeurs",
+  "faqDesc": "Les réponses aux questions les plus fréquentes posées par nos chauffeurs partenaires.",
+  "faqLinkText": "Accéder à la FAQ",
+  "supportTitle": "Support Chauffeur",
+  "supportDesc": "Contactez notre équipe dédiée Veeo pour toute assistance ou question spécifique à votre activité.",
+  "supportLinkText": "Contacter le Support",
+  "docsTitle": "Centre de Documents",
+  "docsDesc": "Retrouvez tous les documents importants pour votre activité : contrats, attestations, mémos.",
+  "docsLinkText": "Voir les Documents",
+  "docsContent": {
+    "introduction": "Accédez facilement à tous les documents administratifs et contractuels relatifs à votre partenariat avec Veeo.",
+    "sections": [
+      {
+        "title": "Contrats et Avenants",
+        "text": "Consultez votre contrat de partenariat et les éventuels avenants. Assurez-vous de bien comprendre vos droits et obligations."
+      },
+      {
+        "title": "Chartes et Règlements",
+        "text": "La charte qualité Veeo, le règlement intérieur de la plateforme, et autres documents encadrant notre collaboration."
+      },
+      {
+        "title": "Attestations et Justificatifs",
+        "text": "Téléchargez les attestations nécessaires pour vos démarches administratives (assurance, revenus, etc.)."
+      }
+    ],
+    "conclusion": "Gardez vos documents à jour et n'hésitez pas à contacter le support si vous avez des questions sur un document spécifique."
+  },
+  "tutorialsTitle": "Tutoriels Vidéo",
+  "tutorialsDesc": "Des guides pas-à-pas en vidéo pour maîtriser toutes les fonctionnalités de l'application Veeo.",
+  "tutorialsLinkText": "Voir les Tutoriels",
+  "tutorialsContent": {
+    "introduction": "Nos tutoriels vidéo sont là pour vous aider à maîtriser rapidement l'application chauffeur Veeo et ses fonctionnalités clés.",
+    "sections": [
+      {
+        "title": "Premiers Pas avec l'Application",
+        "text": "Configuration de votre profil, gestion de votre statut (en ligne/hors ligne), acceptation de votre première course.",
+        "videos": [
+          { "title": "Introduction à l'app Veeo Chauffeur", "youtubeId": "dQw4w9WgXcQ" },
+          { "title": "Accepter et gérer une course", "youtubeId": "L_jWHffIx5E" }
+        ]
+      },
+      {
+        "title": "Navigation et Communication",
+        "text": "Utiliser le GPS intégré, contacter le client via l'application, signaler un problème pendant une course.",
+         "videos": [
+          { "title": "Communiquer avec le client", "youtubeId": "3tmd-ClpJxA" }
+        ]
+      },
+      {
+        "title": "Gestion de Vos Gains et Évaluations",
+        "text": "Consulter votre historique de gains, comprendre votre relevé de paiement, voir vos évaluations et commentaires clients."
+      }
+    ],
+    "conclusion": "De nouvelles vidéos sont ajoutées régulièrement. Abonnez-vous à notre chaîne pour ne rien manquer !"
+  },
+  "communityTitle": "Forum Communautaire",
+  "communityDesc": "Échangez avec d'autres chauffeurs Veeo, partagez astuces et expériences.",
+  "communityLinkText": "Rejoindre le Forum",
+  "communityContent": {
+    "introduction": "Le forum communautaire Veeo est votre espace d'échange privilégié avec les autres chauffeurs partenaires.",
+    "sections": [
+      {
+        "title": "Partage d'Expériences et Astuces",
+        "text": "Discutez des meilleures pratiques, des bons plans, des astuces pour optimiser vos courses, ou des difficultés rencontrées."
+      },
+      {
+        "title": "Actualités de la Plateforme",
+        "text": "Soyez informés des dernières nouveautés, mises à jour de l'application, et événements spéciaux pour les chauffeurs."
+      },
+      {
+        "title": "Entraide et Solidarité",
+        "text": "Posez vos questions, aidez vos collègues, et construisons ensemble une communauté forte et solidaire."
+      }
+    ],
+    "conclusion": "Respect et bienveillance sont les maîtres-mots de notre forum. Participez activement !"
+  },
+  "earningsTitle": "Optimisation des Gains",
+  "earningsDesc": "Conseils et stratégies pour augmenter vos revenus et maximiser votre rentabilité.",
+  "earningsLinkText": "Conseils de Gains",
+  "earningsContent": {
+    "introduction": "Maximiser vos revenus en tant que chauffeur Veeo demande stratégie et connaissance du terrain. Voici quelques pistes.",
+    "sections": [
+      {
+        "title": "Identifier les Périodes et Zones Clés",
+        "text": "Apprenez à connaître les heures de pointe (matin, soir, week-end), les événements majeurs et les zones à forte demande (aéroport, gares, quartiers d'affaires, lieux touristiques)."
+      },
+      {
+        "title": "Profiter des Majorations Dynamiques et Promotions",
+        "text": "Soyez attentif aux notifications de l'application Veeo concernant les majorations tarifaires (surge) et les promotions spéciales pour les chauffeurs."
+      },
+      {
+        "title": "Offrir un Service Client Exceptionnel",
+        "text": "Des clients satisfaits sont plus susceptibles de laisser de bons pourboires et de bonnes évaluations, ce qui peut influencer positivement vos opportunités de courses.",
+        "points": [
+          "Véhicule propre et agréable.",
+          "Conduite professionnelle et courtoise.",
+          "Petites attentions (bouteille d'eau, chargeur de téléphone)."
+        ]
+      },
+      {
+        "title": "Minimiser les Temps Morts et les Dépenses",
+        "text": "Optimisez vos itinéraires entre les courses, anticipez les besoins en carburant et entretenez régulièrement votre véhicule pour éviter les pannes coûteuses."
+      }
+    ],
+    "conclusion": "Votre succès est notre succès. Veeo s'engage à vous fournir les outils et informations pour optimiser votre activité."
+  },
+  "needHelpTitle": "Besoin d'une Aide Urgente ?",
+  "needHelpDesc": "Notre équipe d'assistance prioritaire Veeo est disponible pour les situations critiques sur la route.",
+  "contactSupportButton": "Support Urgent"
+}

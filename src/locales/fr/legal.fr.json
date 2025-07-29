@@ -1,0 +1,50 @@
+{
+  "terms": {
+    "mainTitle": "Conditions Générales d'Utilisation Veeo Strasbourg",
+    "lastUpdated": "Dernière mise à jour : 17 juin 2025",
+    "introductionTitle": "1. Introduction aux services VTC Veeo",
+    "introductionContent": "Bienvenue sur Veeo Strasbourg. En utilisant nos services VTC à Strasbourg et dans le Bas-Rhin, vous acceptez d'être lié par ces Conditions Générales d'Utilisation. Veuillez les lire attentivement.",
+    "servicesTitle": "2. Nos Services VTC à Strasbourg",
+    "servicesContent": "Veeo Strasbourg fournit une plateforme technologique permettant aux utilisateurs de nos applications mobiles ou sites web d'organiser et de planifier des transports VTC avec des chauffeurs tiers indépendants à Strasbourg et dans le Bas-Rhin.",
+    "userAccountTitle": "3. Compte Utilisateur Veeo",
+    "userAccountContent": "Pour utiliser la plupart des aspects des Services VTC Veeo, vous devez vous inscrire et maintenir un compte utilisateur personnel actif. Vous devez avoir au moins 18 ans pour obtenir un Compte Veeo.",
+    "paymentTitle": "4. Paiement des courses VTC",
+    "paymentContent": "Vous comprenez que l'utilisation des Services VTC peut entraîner des frais pour les services ou biens que vous recevez d'un Chauffeur Partenaire Veeo. Veeo Strasbourg facilitera votre paiement des Frais applicables pour le compte du Chauffeur Partenaire.",
+    "cancellationTitle": "5. Annulation de course VTC",
+    "cancellationContent": "Vous pouvez annuler votre demande de services VTC à tout moment avant l'arrivée du Chauffeur Partenaire Veeo, auquel cas des frais d'annulation peuvent vous être facturés. Les politiques d'annulation détaillées sont disponibles dans l'application Veeo.",
+    "limitationTitle": "6. Limitation de Responsabilité Veeo",
+    "limitationContent": "Veeo Strasbourg ne sera pas responsable des dommages indirects, accessoires, spéciaux, exemplaires, punitifs ou consécutifs, y compris la perte de profits, la perte de données, les blessures corporelles ou les dommages matériels liés à, en relation avec, ou résultant autrement de toute utilisation des services VTC.",
+    "governingLawTitle": "7. Droit Applicable (France)",
+    "governingLawContent": "Ces Conditions VTC seront régies et interprétées conformément aux lois de France, sans égard à ses principes de conflit de lois. Tout litige relatif aux services VTC à Strasbourg sera soumis aux juridictions compétentes de Strasbourg.",
+    "changesTitle": "8. Modifications des Conditions Veeo",
+    "changesContent": "Veeo Strasbourg peut modifier les Conditions relatives aux Services VTC de temps à autre. Les modifications entreront en vigueur dès la publication par Veeo de ces Conditions mises à jour sur cet emplacement.",
+    "contactUsTitle": "9. Nous Contacter (Veeo Strasbourg)",
+    "contactUsContent": "Si vous avez des questions concernant ces Conditions VTC, veuillez nous contacter à legal@veeo-strasbourg.fr."
+  },
+  "privacy": {
+    "mainTitle": "Politique de Confidentialité Veeo Strasbourg",
+    "lastUpdated": "Dernière mise à jour : 17 juin 2025",
+    "introductionTitle": "Introduction - Protection de votre vie privée chez Veeo",
+    "introductionContent": "Veeo Strasbourg s'engage à protéger votre vie privée. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez nos services VTC à Strasbourg et dans le Bas-Rhin.",
+    "dataCollectedTitle": "Données VTC que Nous Collectons à Strasbourg",
+    "dataCollectedContent": "Nous pouvons collecter des informations personnelles vous concernant telles que votre nom, adresse e-mail, numéro de téléphone, informations de localisation à Strasbourg, informations de paiement, et détails de vos courses VTC. Nous collectons également des informations sur votre appareil et votre utilisation de nos services Veeo.",
+    "dataUsageTitle": "Utilisation de Vos Données VTC",
+    "dataUsageContent": "Nous utilisons vos données pour fournir et améliorer nos services VTC à Strasbourg, traiter les paiements, communiquer avec vous, assurer la sécurité, personnaliser votre expérience Veeo, et à des fins de marketing et d'analyse.",
+    "dataProtectionTitle": "Protection de Vos Données VTC",
+    "dataProtectionContent": "Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles pour protéger vos données personnelles VTC contre l'accès non autorisé, la modification, la divulgation ou la destruction.",
+    "userRightsTitle": "Vos Droits Concernant vos Données Veeo",
+    "userRightsContent": "Vous avez le droit d'accéder, de corriger, de supprimer vos données personnelles VTC, ou de restreindre leur traitement. Vous pouvez également vous opposer au traitement de vos données à des fins de marketing direct par Veeo Strasbourg.",
+    "cookiePolicyTitle": "Politique Concernant les Cookies Veeo",
+    "cookiePolicyContent": "Nous utilisons des cookies et des technologies similaires pour améliorer votre expérience utilisateur Veeo, analyser l'utilisation de nos services VTC à Strasbourg et à des fins publicitaires. Vous pouvez gérer vos préférences de cookies via les paramètres de votre navigateur.",
+    "policyChangesTitle": "Modifications de cette Politique Veeo",
+    "policyChangesContent": "Nous pouvons mettre à jour cette politique de confidentialité Veeo de temps à autre. Nous vous informerons de tout changement important en publiant la nouvelle politique sur cette page.",
+    "contactUsTitle": "Nous Contacter (Veeo Strasbourg - Confidentialité)",
+    "contactUsContent": "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité ou nos pratiques en matière de données VTC à Strasbourg, veuillez nous contacter à privacy@veeo-strasbourg.fr."
+  },
+  "cookieConsent": {
+    "message": "Veeo Strasbourg utilise des cookies pour améliorer votre expérience sur notre site VTC. En continuant, vous acceptez notre utilisation des cookies.",
+    "learnMore": "En savoir plus sur notre politique de confidentialité VTC",
+    "accept": "Accepter les cookies",
+    "decline": "Refuser les cookies"
+  }
+}

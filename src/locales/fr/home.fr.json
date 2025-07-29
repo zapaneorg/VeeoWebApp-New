@@ -1,0 +1,114 @@
+{
+  "heroTitle": "Votre VTC de confiance à {{city}} et ses environs",
+  "heroSubtitle": "Déplacez-vous en toute sérénité à {{city}} et dans tout le {{region}} avec Veeo. Des chauffeurs professionnels, un service impeccable.",
+  "pickupLabel": "Point de départ",
+  "pickupPlaceholder": "Adresse de départ",
+  "destinationLabel": "Destination",
+  "destinationPlaceholder": "Adresse d'arrivée",
+  "dateLabel": "Date",
+  "timeLabel": "Heure",
+  "bookNow": "Réserver",
+  "missingInfoTitle": "Informations manquantes",
+  "missingInfoDesc": "Veuillez renseigner un point de départ et d'arrivée.",
+  "passengerInfoMissing": "Veuillez renseigner toutes les informations pour le passager.",
+  "passengerOptions": {
+    "title": "Pour qui est cette course ?",
+    "forMe": "Pour moi",
+    "forOther": "Pour une autre personne"
+  },
+  "otherPassengerDetails": {
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "phone": "Numéro de téléphone",
+    "phoneDisclaimer": "Veeo ne partagera ce numéro qu'avec le chauffeur pour cette course.",
+    "warning": "En ajoutant un passager, vous confirmez que cette personne a consenti à ce que ses informations soient utilisées pour cette réservation.",
+    "modalTitle": "Confirmer l'ajout du passager",
+    "modalDescription": "Veuillez confirmer que la personne pour qui vous réservez a accepté de partager ses coordonnées avec Veeo et le chauffeur, et de recevoir des SMS concernant cette course.",
+    "modalCheckboxLabel": "Je confirme que le passager a donné son accord.",
+    "modalConfirmButton": "Ajouter le passager et continuer"
+  },
+  "whyVeeo": "Pourquoi choisir Veeo ?",
+  "featureIntro": "Découvrez ce qui fait de Veeo le meilleur choix pour vos déplacements à {{city}}.",
+  "whyVeeoTitle": "Pourquoi choisir Veeo ?",
+  "whyVeeoSubtitle": "Découvrez ce qui fait de Veeo le meilleur choix pour vos déplacements.",
+  "featureLocationTitle": "Disponibilité Locale",
+  "featureLocationDescription": "Nos chauffeurs sont basés à Strasbourg et connaissent la région sur le bout des doigts.",
+  "featureAvailabilityTitle": "24/7",
+  "featureAvailabilityDescription": "Un chauffeur disponible à toute heure du jour et de la nuit pour répondre à vos besoins.",
+  "featureSafetyTitle": "Sécurité et Fiabilité",
+  "featureSafetyDescription": "Des véhicules modernes et des chauffeurs expérimentés pour un trajet en toute sécurité.",
+  "featureCustomerServiceTitle": "Service Client Dédié",
+  "featureCustomerServiceDescription": "Notre équipe est à votre écoute pour toute question ou demande spécifique.",
+  "howItWorksTitle": "Comment ça marche ?",
+  "howItWorksStep1Title": "Réservez votre course",
+  "howItWorksStep1Desc": "Entrez votre destination, choisissez votre véhicule et confirmez votre réservation en quelques clics.",
+  "howItWorksStep2Title": "Confirmez votre chauffeur",
+  "howItWorksStep2Desc": "Nous vous attribuons le chauffeur le plus proche. Suivez son arrivée en temps réel sur la carte.",
+  "howItWorksStep3Title": "Profitez du voyage",
+  "howItWorksStep3Desc": "Installez-vous confortablement et laissez-vous conduire à votre destination en toute tranquillité.",
+  "qualityTitle": "Notre Engagement Qualité",
+  "qualityDesc": "Chez Veeo, la qualité n'est pas une option. C'est notre promesse. Chaque aspect de votre expérience est pensé pour votre confort et votre sécurité, de la propreté de nos véhicules à la courtoisie de nos chauffeurs.",
+  "ourFleetTitle": "Notre Flotte",
+  "ourFleetDesc": "Découvrez notre gamme de véhicules adaptés à tous vos besoins.",
+  "fleetTitle": "Notre Flotte",
+  "fleetDesc": "Découvrez notre gamme de véhicules adaptés à tous vos besoins.",
+  "fleet": [
+    {
+      "name": "Berline Confort",
+      "description": "Idéale pour vos déplacements quotidiens, alliant confort et élégance.",
+      "imageAlt": "Berline noire moderne"
+    },
+    {
+      "name": "Van Spacieux",
+      "description": "Parfait pour les groupes ou les familles, avec un espace généreux pour les passagers et les bagages.",
+      "imageAlt": "Van gris spacieux"
+    },
+    {
+      "name": "Luxe & Premium",
+      "description": "Pour une expérience de voyage exceptionnelle, choisissez nos véhicules haut de gamme.",
+      "imageAlt": "Voiture de luxe noire"
+    }
+  ],
+  "testimonialsTitle": "Ce que nos clients disent",
+  "testimonials": [
+    {
+      "quote": "Service impeccable, chauffeur très professionnel et ponctuel. Je recommande vivement Veeo !",
+      "name": "Marie Dubois",
+      "location": "Strasbourg"
+    },
+    {
+      "quote": "J'ai utilisé Veeo pour un transfert vers l'aéroport. Le van était spacieux et très propre. Service parfait.",
+      "name": "Jean Martin",
+      "location": "Schiltigheim"
+    },
+    {
+      "quote": "Enfin un service VTC de qualité dans la région. L'application est simple à utiliser et les chauffeurs sont courtois.",
+      "name": "Sophie Garcia",
+      "location": "Illkirch-Graffenstaden"
+    }
+  ],
+  "newsSectionTitle": "Actualités Veeo",
+  "newsSectionSubtitle": "Restez informé des dernières actualités et offres de Veeo.",
+  "newsReadMore": "Lire la suite",
+  "newsTitle": "Actualités Veeo",
+  "news": [
+    {
+      "title": "Veeo étend sa flotte de véhicules électriques",
+      "date": "10 Juillet 2025",
+      "description": "Pour un avenir plus vert, nous sommes fiers d'intégrer 20 nouveaux véhicules 100% électriques à notre flotte."
+    },
+    {
+      "title": "Nouveau partenariat avec les hôtels de Strasbourg",
+      "date": "28 Juin 2025",
+      "description": "Veeo devient le partenaire privilégié de plusieurs grands hôtels pour les déplacements de leurs clients."
+    },
+    {
+      "title": "Lancement de notre programme de fidélité",
+      "date": "15 Juin 2025",
+      "description": "Cumulez des points à chaque course et profitez de réductions exclusives avec le programme Veeo+"
+    }
+  ],
+  "driveWithVeeoTitle": "Devenez chauffeur partenaire Veeo",
+  "driveWithVeeoDesc": "Rejoignez notre équipe de chauffeurs professionnels et profitez d'une flexibilité totale, de revenus attractifs et d'un soutien constant. Conduisez avec Veeo et prenez le volant de votre carrière.",
+  "driveWithVeeoButton": "En savoir plus"
+}

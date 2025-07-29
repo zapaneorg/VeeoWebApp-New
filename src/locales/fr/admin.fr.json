@@ -1,0 +1,38 @@
+{
+  "title": "Tableau de bord Administrateur",
+  "pendingDriversTitle": "Chauffeurs en attente de validation",
+  "approveButton": "Approuver le profil",
+  "pendingStatus": "En attente d'approbation",
+  "noPendingTitle": "Aucun chauffeur en attente",
+  "noPendingDesc": "Tous les comptes chauffeurs ont été traités. De nouveaux comptes en attente d'approbation apparaîtront ici.",
+  "viewDetailsButton": "Voir le profil détaillé",
+  "driverCard": {
+    "contactInfo": "Informations de contact",
+    "addressInfo": "Adresse",
+    "documents": "Documents fournis",
+    "noDocuments": "Aucun document n'a été fourni pour le moment.",
+    "backToList": "Retour à la liste",
+    "viewDoc": "Voir"
+  },
+  "success": {
+    "approveTitle": "Chauffeur approuvé !",
+    "approveDesc": "Le compte du chauffeur est maintenant actif.",
+    "docUpdateSuccess": "Statut du document mis à jour.",
+    "deleteTitle": "Chauffeur supprimé",
+    "deleteDesc": "Le compte du chauffeur a été supprimé avec succès."
+  },
+  "error": {
+    "loadTitle": "Erreur de chargement",
+    "approveTitle": "Erreur d'approbation",
+    "loadDriverTitle": "Erreur de chargement du profil",
+    "docUpdateFailed": "Échec de la mise à jour du document.",
+    "deleteTitle": "Erreur de suppression"
+  },
+  "activateButton": "Activer le Chauffeur",
+  "confirmActivationTitle": "Confirmer l'activation du chauffeur ?",
+  "confirmActivationDesc": "Vous êtes sur le point d'activer le compte de {driverName}. Il pourra alors se connecter et accepter des courses. Cette action est réversible.",
+  "confirmActivationButton": "Oui, activer",
+  "confirmDeleteTitle": "Confirmer la suppression ?",
+  "confirmDeleteDesc": "Êtes-vous sûr de vouloir supprimer le compte de {driverName} ? Cette action est irréversible et supprimera toutes ses données.",
+  "confirmDeleteButton": "Oui, supprimer"
+}

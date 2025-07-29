@@ -1,0 +1,18 @@
+{
+  "book": "Réserver",
+  "services": "Nos Services",
+  "about": "À Propos",
+  "contact": "Contact",
+  "driveWithVeeo": "Devenir Chauffeur",
+  "help": "Aide",
+  "login": "Connexion",
+  "register": "Inscription",
+  "profile": "Mon Profil",
+  "myRides": "Mes Courses",
+  "myBookings": "Mes Réservations",
+  "settings": "Paramètres",
+  "logout": "Déconnexion",
+  "driverLogin": "Espace Chauffeur",
+  "driverResources": "Ressources Chauffeur",
+  "helpCenter": "Centre d'Aide"
+}

@@ -1,0 +1,28 @@
+{
+      "title": "Tableau de bord Chauffeur",
+      "activeRide": "Course en cours",
+      "noRidesTitle": "En attente de courses...",
+      "noRidesDescription": "Vous serez notifié dès qu'une nouvelle course sera disponible près de vous.",
+      "declineRide": "Refuser",
+      "acceptRide": "Accepter",
+      "pickupAddress": "Adresse de prise en charge",
+      "dropoffAddress": "Adresse de destination",
+      "paymentCash": "Paiement en espèces",
+      "paymentApp": "Paiement via l'application",
+      "toReachClient": "Pour rejoindre le client",
+      "status": {
+        "pending_confirmation": "En attente",
+        "confirmed": "Confirmée - Allez au point de départ",
+        "en_route_pickup": "En route vers le client",
+        "at_pickup": "Arrivé au point de départ",
+        "in_progress": "Course en cours",
+        "completed": "Terminée",
+        "cancelled": "Annulée"
+      },
+      "actions": {
+        "start_drive_to_pickup": "Démarrer vers le client",
+        "arrived_at_pickup": "Je suis arrivé",
+        "start_ride": "Commencer la course",
+        "complete_ride": "Terminer la course"
+      }
+    }

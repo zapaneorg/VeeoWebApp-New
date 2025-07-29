@@ -1,0 +1,100 @@
+{
+  "dashboard": {
+    "title": "Tableau de bord"
+  },
+  "sidebar": {
+    "dashboard": "Accueil",
+    "profile": "Profil",
+    "history": "Historique",
+    "earnings": "Gains",
+    "documents": "Documents",
+    "settings": "Paramètres"
+  },
+  "profile": {
+    "title": "Mon Profil Chauffeur",
+    "editTitle": "Informations Personnelles",
+    "editSubtitle": "Mettez à jour vos informations et votre véhicule.",
+    "vehicleInfo": "Informations du Véhicule",
+    "vehicleModel": "Modèle du véhicule",
+    "licensePlate": "Plaque d'immatriculation"
+  },
+  "history": {
+    "title": "Historique des Courses",
+    "listTitle": "Courses terminées",
+    "listSubtitle": "Retrouvez ici toutes vos courses passées.",
+    "noRides": "Vous n'avez encore effectué aucune course.",
+    "fetchError": "Impossible de charger l'historique des courses."
+  },
+  "earnings": {
+    "title": "Mes Gains",
+    "today": "Gains d'aujourd'hui",
+    "thisWeek": "Cette semaine",
+    "onlineTime": "Temps en ligne",
+    "totalRides": "Courses",
+    "detailsTitle": "Détails des gains",
+    "detailsSubtitle": "Graphiques et analyses de vos revenus.",
+    "notImplemented": "Les graphiques détaillés des gains seront bientôt disponibles."
+  },
+  "documents": {
+    "title": "Mes Documents",
+    "manageTitle": "Gestion des documents",
+    "manageSubtitle": "Assurez-vous que vos documents sont à jour pour pouvoir rouler.",
+    "status": {
+      "verified": "Vérifié",
+      "pending_review": "En attente de validation",
+      "missing": "Manquant",
+      "rejected": "Rejeté"
+    },
+    "uploadButton": "Téléverser",
+    "replaceButton": "Remplacer",
+    "viewButton": "Visualiser",
+    "labels": {
+      "driving_license_front": "Permis de conduire (recto)",
+      "driving_license_back": "Permis de conduire (verso)",
+      "vtc_card_front": "Carte professionnelle VTC (recto)",
+      "vtc_card_back": "Carte professionnelle VTC (verso)",
+      "rc_exploitation": "Attestation RC exploitation",
+      "id_card_front": "Pièce d'identité (recto)",
+      "id_card_back": "Pièce d'identité (verso)",
+      "revtc_attestation": "Attestation REVTC",
+      "kbis_extract": "Extrait KBIS ou Relevé SIRENE",
+      "vehicle_registration_front": "Carte grise véhicule (recto)",
+      "vehicle_registration_back": "Carte grise véhicule (verso)",
+      "id_photo": "Photo d'identité"
+    }
+  },
+  "settings": {
+    "title": "Paramètres de l'application",
+    "themeTitle": "Thème",
+    "themeSubtitle": "Choisissez l'apparence de l'application.",
+    "themeOptions": {
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système"
+    },
+    "navigationTitle": "Navigation",
+    "navigationSubtitle": "Choisissez votre application de navigation par défaut.",
+    "navOptions": {
+      "google_maps": "Google Maps",
+      "waze": "Waze",
+      "apple_maps": "Plans (Apple)"
+    },
+    "paymentTitle": "Paiement",
+    "paymentSubtitle": "Gérez vos informations bancaires pour les virements.",
+    "ibanLabel": "IBAN",
+    "swiftLabel": "SWIFT / BIC",
+    "soundTitle": "Paramètres du son",
+    "soundSubtitle": "Ajustez le volume des notifications.",
+    "soundLevels": {
+      "low": "Faible",
+      "medium": "Moyen",
+      "high": "Élevé"
+    },
+    "aboutTitle": "À propos",
+    "aboutSubtitle": "Informations sur l'application.",
+    "version": "Version",
+    "creator": "Création",
+    "saveSuccess": "Paramètres enregistrés avec succès.",
+    "saveError": "Erreur lors de l'enregistrement des paramètres."
+  }
+}

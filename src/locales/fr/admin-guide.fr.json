@@ -1,0 +1,21 @@
+{
+  "title": "Guide de l'Administrateur",
+  "intro": "Ce guide vous explique comment créer votre premier compte administrateur pour gérer la plateforme Veeo.",
+  "step1_title": "Créez un compte utilisateur standard",
+  "step1_desc": "D'abord, inscrivez-vous sur l'application comme un utilisateur normal via le formulaire d'inscription, si ce n'est pas déjà fait.",
+  "step2_title": "Accédez à votre base de données Supabase",
+  "step2_desc": "Connectez-vous à votre tableau de bord Supabase. C'est ici que vous gérez les données de votre application.",
+  "step2_button": "Aller sur Supabase",
+  "step3_title": "Trouvez la table des 'profiles'",
+  "step3_desc": "Dans l'éditeur de tables, cherchez et ouvrez la table nommée 'profiles'. Elle contient tous les utilisateurs de votre application.",
+  "step4_title": "Localisez votre profil",
+  "step4_desc": "Trouvez la ligne qui correspond à votre compte utilisateur (grâce à votre email).",
+  "step5_title": "Changez le rôle en 'admin'",
+  "step5_desc": "Dans la colonne 'role' de votre ligne, remplacez la valeur actuelle (probablement 'client') par 'admin'.",
+  "step6_title": "Sauvegardez les modifications",
+  "step6_desc": "Assurez-vous de bien sauvegarder les changements dans Supabase. Votre compte a maintenant les droits d'administrateur !",
+  "whats_next_title": "Et ensuite ?",
+  "whats_next_desc": "Maintenant que vous êtes administrateur, vous pouvez vous connecter via le portail administrateur pour gérer les chauffeurs et la plateforme.",
+  "admin_dashboard_path": "/admin/dashboard",
+  "important_note": "Assurez-vous d'être déconnecté de l'application avant de tenter de vous connecter en tant qu'administrateur pour la première fois."
+}
