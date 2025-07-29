@@ -5,6 +5,7 @@ import BookingOptions from './form/BookingOptions';
 import PassengerDetails from './form/PassengerDetails';
 import RideDetails from './form/RideDetails';
 import OtherOptions from './form/OtherOptions';
+import ScheduleField from './form/ScheduleField';
 import SubmitButton from './form/SubmitButton';
 import ConsentModal from './form/ConsentModal';
 import { useBookingForm } from '@/hooks/useBookingForm';
@@ -60,6 +61,11 @@ const BookingForm = ({ bookingData, setBookingData, onSubmit, isGoogleMapsApiLoa
         <OtherOptions
           bookingData={bookingData}
           handlers={handlers}
+          t={t}
+        />
+        <ScheduleField
+          scheduledTime={bookingData.scheduledTime}
+          onScheduledTimeChange={(time) => setBookingData((prev) => ({ ...prev, scheduledTime: time }))}
           t={t}
         />
         <SubmitButton t={t} />

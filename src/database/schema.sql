@@ -10,6 +10,7 @@ create table
     dropoff_lat numeric null,
     dropoff_lng numeric null,
     booking_time timestamp with time zone not null,
+    scheduled_time timestamp with time zone null,
     status text null,
     vehicle_type text null,
     estimated_price numeric null,
@@ -24,6 +25,7 @@ create table
     payment_method_id text null,
     payment_status text null,
     rating integer null,
+    review_comment text null,
     driver_rating integer null,
     cancellation_reason text null,
     cancelled_by text null,
@@ -113,4 +115,16 @@ create table
     constraint ride_messages_pkey primary key (id),
     constraint ride_messages_booking_id_fkey foreign key (booking_id) references bookings (id) on update cascade on delete cascade,
     constraint ride_messages_sender_id_fkey foreign key (sender_id) references profiles (id) on update cascade on delete cascade
+  ) tablespace pg_default;
+
+create table
+  public.chat_messages (
+    id uuid not null default gen_random_uuid (),
+    booking_id uuid not null,
+    sender_id uuid not null,
+    message text not null,
+    created_at timestamp with time zone not null default now(),
+    constraint chat_messages_pkey primary key (id),
+    constraint chat_messages_booking_id_fkey foreign key (booking_id) references bookings (id) on update cascade on delete cascade,
+    constraint chat_messages_sender_id_fkey foreign key (sender_id) references auth.users (id) on update cascade on delete cascade
   ) tablespace pg_default;

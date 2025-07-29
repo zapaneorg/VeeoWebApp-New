@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { motion, AnimatePresence } from 'framer-motion';
 import RideTrackingMap from '@/components/tracking/RideTrackingMap';
 import RideStatusPanel from '@/components/tracking/RideStatusPanel';
+import ChatDialog from '@/components/tracking/ChatDialog';
 import { useRideTracking } from '@/hooks/useRideTracking';
 import { useNotifications } from '@/hooks/useNotifications';
 import {
@@ -156,6 +157,10 @@ const RideTrackingPage = () => {
           />
         )}
       </AnimatePresence>
+
+      <div className="absolute bottom-28 right-4 z-10">
+        <ChatDialog bookingId={booking.id} />
+      </div>
 
       <AnimatePresence>
         {booking && user?.role === 'client' && (
