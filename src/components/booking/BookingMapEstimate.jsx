@@ -3,6 +3,7 @@ import BookingMapDisplay from '@/components/booking/BookingMapDisplay';
 import BookingEstimateDetails from '@/components/booking/BookingEstimateDetails';
 import { useToast } from "@/components/ui/use-toast";
 import { Loader2 } from 'lucide-react';
+import { useDebounce } from '@/hooks/useDebounce';
 import { BookingSteps, useBookingContext } from '@/contexts/BookingContext';
 import { useLocale } from '@/contexts/LocaleContext.jsx';
 
@@ -32,8 +33,13 @@ const BookingMapEstimate = ({ step }) => {
 
   const directionsServiceRef = useRef(null);
 
+  // Debounce coordinates to prevent excessive API calls
+  const debouncedPickupCoords = useDebounce(pickupCoords, 500);
+  const debouncedDropoffCoords = useDebounce(dropoffCoords, 500);
+  const debouncedStops = useDebounce(stops, 500);
+
   const calculateRoute = useCallback(async () => {
-    if (!pickupCoords || !dropoffCoords || !isGoogleMapsApiLoaded) {
+    if (!debouncedPickupCoords || !debouncedDropoffCoords || !isGoogleMapsApiLoaded) {
       setDirectionsResponse(null);
       setEstimatedPrice(null);
       setEstimatedDuration(null);
@@ -53,9 +59,9 @@ const BookingMapEstimate = ({ step }) => {
         directionsServiceRef.current = new window.google.maps.DirectionsService();
     }
 
-    const origin = new window.google.maps.LatLng(pickupCoords.lat, pickupCoords.lng);
-    const destination = new window.google.maps.LatLng(dropoffCoords.lat, dropoffCoords.lng);
-    const waypoints = stops
+    const origin = new window.google.maps.LatLng(debouncedPickupCoords.lat, debouncedPickupCoords.lng);
+    const destination = new window.google.maps.LatLng(debouncedDropoffCoords.lat, debouncedDropoffCoords.lng);
+    const waypoints = debouncedStops
       .filter(stop => stop.coords)
       .map(stop => ({
         location: new window.google.maps.LatLng(stop.coords.lat, stop.coords.lng),
@@ -124,13 +130,13 @@ const BookingMapEstimate = ({ step }) => {
         }
       }
     );
-  }, [pickupCoords, dropoffCoords, stops, isGoogleMapsApiLoaded, setEstimatedPrice, setEstimatedDuration, setEstimatedDistance, toast, map, t]);
+  }, [debouncedPickupCoords, debouncedDropoffCoords, debouncedStops, isGoogleMapsApiLoaded, setEstimatedPrice, setEstimatedDuration, setEstimatedDistance, toast, map, t]);
 
   useEffect(() => {
-    const allStopsHaveCoords = stops.every(stop => stop.coords);
-    if (pickupCoords && dropoffCoords && allStopsHaveCoords && isGoogleMapsApiLoaded && step === BookingSteps.FORM) {
+    const allStopsHaveCoords = debouncedStops.every(stop => stop.coords);
+    if (debouncedPickupCoords && debouncedDropoffCoords && allStopsHaveCoords && isGoogleMapsApiLoaded && step === BookingSteps.FORM) {
       calculateRoute();
-    } else if (!pickupCoords || !dropoffCoords) {
+    } else if (!debouncedPickupCoords || !debouncedDropoffCoords) {
       setDirectionsResponse(null);
       setEstimatedPrice(null);
       setEstimatedDuration(null);
@@ -138,7 +144,7 @@ const BookingMapEstimate = ({ step }) => {
       setMapCenter(defaultCenter);
       setMapZoom(10);
     }
-  }, [pickupCoords, dropoffCoords, stops, isGoogleMapsApiLoaded, calculateRoute, step, setEstimatedPrice, setEstimatedDuration, setEstimatedDistance]);
+  }, [debouncedPickupCoords, debouncedDropoffCoords, debouncedStops, isGoogleMapsApiLoaded, calculateRoute, step, setEstimatedPrice, setEstimatedDuration, setEstimatedDistance]);
   
   useEffect(() => {
     if (pickupCoords && !dropoffCoords) {

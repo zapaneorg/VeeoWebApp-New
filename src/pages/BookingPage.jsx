@@ -14,8 +14,8 @@ import { BookingSteps, useBookingContext, BookingProvider } from '@/contexts/Boo
 import { PageHeader } from '@/components/booking/BookingPageHeader.jsx';
 import { useLocale } from '@/contexts/LocaleContext.jsx';
 import { createBooking } from '@/lib/authService'; 
+import { config } from '@/config/environment';
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyAezXvXrmIL6fKuM7mOwgAVgYAwldHhziY"; 
 const libraries = ["places", "directions"];
 
 const BookingPageCore = () => {
@@ -26,7 +26,7 @@ const BookingPageCore = () => {
   const bookingContext = useBookingContext();
 
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: config.googleMaps.apiKey,
     libraries,
     preventGoogleFontsLoading: true,
   });
@@ -193,7 +193,7 @@ const BookingPageCore = () => {
     }
   };
 
-  const isLoading = authLoading || (!isGoogleMapsApiLoaded && !loadError && GOOGLE_MAPS_API_KEY);
+  const isLoading = authLoading || (!isGoogleMapsApiLoaded && !loadError && config.googleMaps.apiKey);
 
 
   if (isLoading) {

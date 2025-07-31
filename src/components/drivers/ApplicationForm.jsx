@@ -11,6 +11,8 @@ import Step3Documents from './form/Step3Documents';
 import Step4Summary from './form/Step4Summary';
 import { performDriverRegistration, uploadDriverDocument, updateUserProfile, updateDriverStatus } from '@/lib/authService';
 import { useAuth } from '@/contexts/AuthContext';
+import { validateDriverRegistration } from '@/lib/validation';
+import { handleError } from '@/lib/errorHandler';
 
 const ApplicationForm = () => {
   const { t } = useLocale();
@@ -126,7 +128,15 @@ const ApplicationForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    if (!validateStep1() || !validateStep2() || !validateStep3()) return;
+    try {
+      if (!validateStep1() || !validateStep2() || !validateStep3()) return;
+      
+      // Enhanced validation
+      validateDriverRegistration(formData);
+    } catch (error) {
+      handleError(error, 'Driver Registration Validation');
+      return;
+    }
     
     setIsSubmitting(true);
     
@@ -175,11 +185,7 @@ const ApplicationForm = () => {
       navigate('/driver-pending-approval');
 
     } catch (error) {
-      toast({
-        title: "Une erreur est survenue",
-        description: error.message || "Impossible de soumettre le dossier. Veuillez réessayer.",
-        variant: "destructive",
-      });
+      handleError(error, 'Driver Registration Submission');
     } finally {
       setIsSubmitting(false);
     }

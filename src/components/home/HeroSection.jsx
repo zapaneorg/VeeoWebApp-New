@@ -9,8 +9,8 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { MapPin, CalendarDays, Clock, Navigation, AlertTriangle } from 'lucide-react';
 import { useLoadScript, Autocomplete } from '@react-google-maps/api';
 import { fadeIn } from './animations';
+import { config } from '@/config/environment';
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyAezXvXrmIL6fKuM7mOwgAVgYAwldHhziY"; 
 const libraries = ["places"];
 
 const HeroSection = ({ t, navigate, toast }) => {
@@ -29,7 +29,7 @@ const HeroSection = ({ t, navigate, toast }) => {
   const dropoffAutocompleteRef = useRef(null);
 
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: config.googleMaps.apiKey,
     libraries,
     preventGoogleFontsLoading: true,
   });
